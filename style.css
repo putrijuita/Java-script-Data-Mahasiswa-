@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: linear-gradient(
+		to right,
+		rgb(173, 0, 121),
+		hsl(331 100% 50%)
+	);
+}
+.Seravina-Container {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.Seravina-Container .Seravina-Heading1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+   
+}
+.Seravina-Form form pre {
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase; 
+}
+.Seravina-Form form pre .Seravinainput {
+    padding: 0.5%;
+    width: 250px;
+}
+.Seravina-Form form pre .Seravinainput:hover{
+    background-color: rgba(255, 0, 200, 0.144);
+}
+.Seravina-Form form pre .Seravinainput:active{
+    background-color: rgb(255, 255, 255);
+}
+.Seravina-Form form pre .Seravinaselect, .SeravinaInputJenisKelamin {
+    padding: 0.5%;
+    width: 262px;
+}
+.Seravina-Form form pre .Seravinaselect:hover{
+    background-color: rgba(255, 0, 200, 0.144);
+}
+.Seravina-Form form pre .Seravinaselect:active{
+    background-color: rgb(255, 255, 255);
+}
+.Seravina-Form form .SeravinaButton:hover{
+    background-color: rgba(255, 0, 200, 0.329);
+}
+.Seravina-Form form .SeravinaButton:active{
+    background-color: rgb(255, 255, 255);
+}
+.Seravina-Form form .SeravinaButton {
+    padding: 0.5%;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-left: 25px;
+    text-transform: uppercase;
+
+}
+.Seravina-Form form table {
+    margin-top: 50px;
+}
+.Seravina-Form form table thead {
+    text-transform: uppercase;
+
+}
+.Seravina-Form form table thead tr td {
+    text-align: center;
+}
+.Seravina-Form form table tr:hover {
+    background-color: rgba(255, 0, 200, 0.329);
+
+}
+.Seravina-Form form table td {
+    text-align: left;
+    height: 70px;
+    width: 380px;
+    max-width: 380px;
+    padding: 10px;
+    word-break: break-word;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #999;
+    
+}
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <title>Konsep Pemograman</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    
+        <div class="Seravina-Container">
+
+            <div class="Seravina-Heading1">
+
+                <h1>DATA MAHASISWA</h1>
+                
+                <h1>Politeknik Amamapare Timika</h1>
+
+            </div>
+
+            <div class="Seravina-Form">
+
+                <form name="SeravinaForm">
+
+                    <pre>
+
+                        Nim                         <input type="number" class="Seravinainput" id="SeravinaInputNim">
+
+
+
+                        Nama Mahasiswa              <input type="text" class="Seravinainput" id="SeravinaInputNama"> 
+
+
+
+                        Jenis Kelamain              <select id="SeravinaInputJenisKelamin" class="SeravinaInputJenisKelamin">
+    
+                            <option></option>
+            
+                            <option>Laki-Laki</option>
+            
+                            <option>Perempuan</option>  
+            
+                        </select> 
+
+
+
+                        Agama                       <select id="SeravinaInputAgama" class="Seravinaselect">
+    
+                            <option></option>
+            
+                            <option>Islam</option>
+            
+                            <option>Kristen Protestan</option>  
+            
+                            <option>Kristen Katolik</option>  
+            
+                            <option>Hindu </option>  
+            
+                            <option>Buddha </option>  
+            
+                            <option>Konghucu </option>  
+            
+                        </select> 
+
+
+
+                        Status                      <input type="radio" value="Kawin" name="SeravinaInputStatus">Kawin 
+
+
+
+                        Jurusan POLTEKAM            <select id="SeravinaInputJurusan" class="Seravinaselect">
+    
+                            <option></option>
+            
+                            <option>Teknologi Rekayasa Informatika</option>
+            
+                            <option>Teknik Mesin</option>  
+            
+                            <option>Teknik Sipil</option>  
+            
+                            <option>Teknik Listrik</option>  
+            
+                            <option>Teknik Tambang</option>  
+            
+                        </select> 
+
+
+
+                        Komentar                    <textarea class="Seravinainput" id="SeravinaInputKomentar" rows="3" cols="30"></textarea> 
+
+                    </pre>
+
+                    <br>
+
+                    <input type="button" value="kirim" class="SeravinaButton"> 
+        
+                    <input type="reset" value="Bersikan" class="SeravinaButton">
+
+                    <br>
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <td>NIM</td>
+
+                                <td>Nama Mahasiswa</td>
+
+                                <td>Jenis Kelamain</td>
+
+                                <td>Agama</td>
+
+                                <td>Status</td>
+
+                                <td>JURUSAN POLTEKAM </td>
+
+                                <td>Komentar</td>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody class="SeravinaOutput">
+
+                            <tr>
+
+                                <td>22512047</td>
+
+                                <td>Seravina Nuryanti Juita</td>
+
+                                <td>Perempuan</td>
+
+                                <td>Kristen Katolik</td>
+
+                                <td>Belum Kawin</td>
+
+                                <td>Telekomunikasi Rekayasa Internet</td>
+
+                                <td>Thank You <br> God Bless You</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
